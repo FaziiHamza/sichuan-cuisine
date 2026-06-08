@@ -462,6 +462,11 @@ button {
                 .icon {
                     width: 52px;
 
+                    img {
+                        width: calc(100% - 5px);
+                        height: auto;
+                    }
+
                     svg {
                         width: 52px;
                     }
