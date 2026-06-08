@@ -1,0 +1,9 @@
+.btn-primary {
+    transition: transform 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(180deg, rgba(79, 171, 10, 0.85) 0%, rgba(32, 69, 4, 0.85) 100%);
+    transform: scale(1.03);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
