@@ -266,7 +266,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 766px) {
     .d-none-sm {
         display: none;
     }
@@ -422,10 +422,14 @@
     }
 
     .footer .btn-footer {
-        width: 350px;
+        max-width: 400px;
         height: 88px;
         padding: 10px;
         font-size: 30px;
+    }
+
+    .footer .section-content {
+        padding: 120px 0px;
     }
 
     .footer .section-content {
@@ -493,5 +497,9 @@
 
     .hero-section .hero-vector-sm {
         width: 230px;
+    }
+
+    .footer .btn-footer {
+        width: 100%;
     }
 }
