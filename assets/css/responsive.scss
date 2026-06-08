@@ -351,9 +351,6 @@
         line-height: 29px;
     }
 
-    .country-heading-section .section-inner {
-        align-items: flex-start;
-    }
 
     .country-heading-section .section-inner .heading122 {
         width: 450px;
@@ -491,11 +488,33 @@
 
     }
 
+    .country-heading-section .section-inner h3 {
+        font-size: 24px;
+    }
+
+    .country-heading-section .section-inner .heading122 {
+        width: 360px;
+    }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
+
+    .country-heading-section .section-inner h3 {
+        font-size: 20px;
+    }
+
+    .country-heading-section .section-inner .heading122 {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 430px) {
     .footer .section-content {
         padding: 30px 0px;
+    }
+
+    .country-heading-section .section-inner {
+        align-items: flex-start;
     }
 
     .footer .btn-footer {
