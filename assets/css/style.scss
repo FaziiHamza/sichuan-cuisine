@@ -784,11 +784,12 @@ button {
         bottom: 0;
         display: flex;
         align-items: flex-end;
-        padding: 110px 0px;
-
+        padding: 90px 0px;
+        
         .inner-content {
             display: flex;
             justify-content: flex-end;
+            padding-right: 3%;
         }
     }
 
