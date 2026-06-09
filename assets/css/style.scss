@@ -109,9 +109,15 @@ button {
     transition: transform 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
 
     &:hover {
-        background: linear-gradient(180deg, rgba(79, 171, 10, 0.85) 0%, rgba(32, 69, 4, 0.85) 100%);
         transform: scale(1.03);
         box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+        border: 3px solid #4FAB0A;
+        background: #ffff !important;
+        color: #4FAB0A;
+
+        svg path {
+            fill: #4FAB0A !important;
+        }
     }
 }
 
@@ -785,7 +791,7 @@ button {
         display: flex;
         align-items: flex-end;
         padding: 90px 0px;
-        
+
         .inner-content {
             display: flex;
             justify-content: flex-end;
@@ -822,9 +828,15 @@ button {
         color: #FFFFFF;
 
         &:hover {
-            background: linear-gradient(180deg, rgba(79, 171, 10, 0.85) 0%, rgba(32, 69, 4, 0.85) 100%);
             transform: scale(1.03);
             box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+            border: 3px solid #4FAB0A;
+            background: #ffff !important;
+            color: #4FAB0A;
+
+            svg path {
+                fill: #4FAB0A !important;
+            }
         }
     }
 }
